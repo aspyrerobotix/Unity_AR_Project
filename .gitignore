@@ -10,6 +10,15 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+# Vuforia Engine package archive (132MB, exceeds GitHub's 100MB file limit).
+# Re-added locally via Package Manager / the .tgz on first setup.
+Packages/com.ptc.vuforia.engine-11.4.4.tgz
+
+# Furniture Mega Pack: only the specific files ARFurniture's prefabs depend on
+# are tracked (force-added individually); the rest of this 1.6GB asset pack
+# is intentionally excluded to keep clones small.
+/Assets/Furniture Mega Pack/
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
